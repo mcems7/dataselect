@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DataSelect</title>
+    <link rel="stylesheet" href="dataselect.css">
+</head>
+<body>
+    <select placeholder="Seleccionar" name="opciones" id="opciones">
+        <option value="1">Uno</option>
+        <option value="2">Dos</option>
+    </select>
+    <select placeholder="Seleccionar otros" name="otro" id="otro">
+        <option value="3">Tres</option>
+        <option value="4">Cuatro</option>
+    </select>
+    <script src="dataselect.js"></script>
+    <script>
+        dataselect('opciones');
+        dataselect('otro');
+    </script>
+</body>
+</html>
